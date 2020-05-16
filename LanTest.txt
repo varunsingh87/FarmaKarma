@@ -5,8 +5,24 @@
 </head>
 <body>
 
-<h1>welcome to FarmShare</h1>
+<img src="istockphoto-867625498-1024x1024.jpg" alt="https://media.istockphoto.com/vectors/horse-icon-vector-id867625498" width="104" height="142">
+
+<h1>Welcome to FarmShare</h1>
 <p>Made by Lan, Paul, and Varun</p>
+<button>About us</button>
+
+<h2>How is livestock raised?</h2>
+<p>About this header</p>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<h2>What is the pesticide usage like?</h2>
+<p>About this header</p>
+<a href="https://data.ers.usda.gov/reports.aspx?ID=17883">Pesticides and Corn</a>
+
+<h2>How is waste reduced?</h2>
+<p>About this header</p>
 
 </body>
 </html>
+
