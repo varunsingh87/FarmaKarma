@@ -5,6 +5,7 @@ async function displayFoodData() {
 
 async function displayCropData() {
 	const data = Constants.getData(`https://quickstats.nass.usda.gov/api/get_counts/?key=${Constants.QuickStatsKey}&commodity_desc=CATTLE&year__GE=2020&state_alpha=PA`);
+	console.log(data);
 	document.getElementById('crop-data').innerHTML = data.count;
 }
 
