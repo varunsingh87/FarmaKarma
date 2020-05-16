@@ -9,10 +9,25 @@ const url = `http://quickstats.nass.usda.gov/api/api_GET/?key=${Constants.FDCKey
 async function retrieveCornData() {
   response = await axios.get(url);
   state = response.data
-  console.log(state);
+  return state.data[0].Value;
 }
 
+async function compareCornData(input) {
+	let all = await retrieveCornData();
+	all = all.replace(/,/g, '');
+	return parseInt(input) / parseInt(all);
+}
+
+async function displayData(input) {
+	console.log(await compareCornData(input));
+}
 console.log("Server Started");
-retrieveCornData();
-const name = prompt('What is your name?');
-console.log(`Hey there ${name}`);
+
+
+const name = prompt('Enter something you would like to evaluate: ');
+switch (name) {
+	case "corn":
+		let input = prompt('Enter your average annual yield of corn: ');
+		displayData(input);
+		break;
+}
