@@ -3,16 +3,6 @@ const prompt = require('prompt-sync')();
 const axios = require('axios');
 const Constants = require('./constants.json');
 const CSVToJSON = require('csvtojson');
-CSVToJSON().fromFile('PlantedCrops.csv')
-    .then(users => {
-
-        // users is a JSON array
-        // log the JSON array
-        console.log(users.filter(el => el.Commodity2 == 'Barley'));
-    }).catch(err => {
-        // log error if any
-        console.log(err);
-    });
 
 // Make an API request to QuickStats API from National Agricultural Survey Service from USDA
 async function retrieveCornData() {
@@ -40,6 +30,17 @@ async function comparePesticideData(input) {
 	return parseInt(input) / parseInt(all);
 }
 
+async function retrieveBarleyData() {
+  barley = await CSVToJSON().fromFile('PlantedCrops.csv');
+  barley = barley.filter(el => el.Commodity2 == 'Barley');
+  return barley[0].value;
+}
+
+async function compareBarleyData(input) {
+  let all = await retrieveBarleyData();
+  return parseInt(input) / parseInt(all);
+}
+
 Number.prototype.toPercent = function() {
 	return parseFloat(this).toFixed(5) * 100 + "%";
 }
@@ -62,6 +63,9 @@ async function runFarmerApp() {
 			input = prompt('Enter your average pesticide use');
 			await displayData(input, comparePesticideData);
 			break;
+    case "barley":
+      input1 = prompt('Enter your average barley planting-harvesting percentage difference');
+      await displayData(input, compareBarleyData);
 	}
 }
 
