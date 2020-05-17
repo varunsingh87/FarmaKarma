@@ -106,17 +106,39 @@ async function calculatedCsvPesticideScore(csvCornYield, csvWateredCornAcres, cs
 
 
 //compare user input to calculated csv total and return grade for pesticides
-if userPesticideScore > csvPesticideScore
+if userPesticideScore > csvPesticideScore //US standard is 8.963 bushels per treated acre
 	if userPesticideScore < 10
-		return C
+		return C //Missouri falls here with 7.4061
 	else if userPesticideScore >= 10  & userPesticideScore < 50
-		return B
+		return B //Colorado, Kansas, Texas, Georgia fall here
 	else if userPesticideScore >= 50
-		return A
+		return A //Nebraska falls here with 90.3598
 else
 	return D
 
 
+
+
+//user corn to water ratio
+async function calculatedUserCornYield(userCornYield, userWateredCornAcres) {
+  userCornYieldRatio =  userCornYield/userWateredCornAcres;
+  return userCornYieldRatio;
+}
+
+
+
+
+//compare user input to calculated csv total and return grade for water ratio
+if userCornYieldRatio > csvCornYield //US standard is 174.8 bushels per irrigated acre
+	if userCornYieldRatio < 180
+		return B //
+	else if userCornYieldRatio >= 180
+		return A //Georgia and Nebraska fall here
+else
+	if userCornYieldRatio <= csvCornYield & userCornYieldRatio > 150
+		return C //Colorado, Missouri fall here
+	else
+		return D //Texas, Kansas fall here
 
 
 
