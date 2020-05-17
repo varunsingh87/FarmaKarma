@@ -2,7 +2,17 @@
 const prompt = require('prompt-sync')();
 const axios = require('axios');
 const Constants = require('./constants.json');
+const CSVToJSON = require('csvtojson');
+CSVToJSON().fromFile('PlantedCrops.csv')
+    .then(users => {
 
+        // users is a JSON array
+        // log the JSON array
+        console.log(users.filter(el => el.Commodity2 == 'Barley'));
+    }).catch(err => {
+        // log error if any
+        console.log(err);
+    });
 
 // Make an API request to QuickStats API from National Agricultural Survey Service from USDA
 async function retrieveCornData() {
@@ -57,9 +67,10 @@ async function runFarmerApp() {
 
 async function loopApp() {
 	await runFarmerApp();
-	const answer = prompt("Type Y to continue: ");
+	let answer = prompt("Type Y to continue: ");
 	while (answer == 'Y') {
 		await runFarmerApp();
+		answer = prompt("Type Y to continue");
 	}
 }
 

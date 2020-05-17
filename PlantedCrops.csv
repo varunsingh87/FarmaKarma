@@ -1,0 +1,964 @@
+﻿Commodity2,Attribute,Description,YearProjected2,Year2,Value
+Barley,Planted acres,Million acres,2019,2017/18,2.5
+Barley,Planted acres,Million acres,2019,2018/19,2.5
+Barley,Planted acres,Million acres,2019,2019/20,2.6
+Barley,Planted acres,Million acres,2019,2020/21,2.6
+Barley,Planted acres,Million acres,2019,2021/22,2.7
+Barley,Planted acres,Million acres,2019,2022/23,2.8
+Barley,Planted acres,Million acres,2019,2023/24,2.9
+Barley,Planted acres,Million acres,2019,2024/25,2.9
+Barley,Planted acres,Million acres,2019,2025/26,2.9
+Barley,Planted acres,Million acres,2019,2026/27,2.9
+Barley,Planted acres,Million acres,2019,2027/28,2.9
+Barley,Planted acres,Million acres,2019,2028/29,2.9
+Barley,Planted acres,Million acres,2020,2018/2019,2.548
+Barley,Planted acres,Million acres,2020,2019/2020,2.721
+Barley,Planted acres,Million acres,2020,2020/2021,2.6
+Barley,Planted acres,Million acres,2020,2021/2022,2.6
+Barley,Planted acres,Million acres,2020,2022/2023,2.6
+Barley,Planted acres,Million acres,2020,2023/2024,2.6
+Barley,Planted acres,Million acres,2020,2024/2025,2.6
+Barley,Planted acres,Million acres,2020,2025/2026,2.6
+Barley,Planted acres,Million acres,2020,2026/2027,2.6
+Barley,Planted acres,Million acres,2020,2027/2028,2.6
+Barley,Planted acres,Million acres,2020,2028/2029,2.6
+Barley,Planted acres,Million acres,2020,2029/2030,2.6
+Corn,Planted acres,Million acres,2019,2017/18,90.2
+Corn,Planted acres,Million acres,2019,2018/19,89.1
+Corn,Planted acres,Million acres,2019,2019/20,92
+Corn,Planted acres,Million acres,2019,2020/21,93
+Corn,Planted acres,Million acres,2019,2021/22,93
+Corn,Planted acres,Million acres,2019,2022/23,93
+Corn,Planted acres,Million acres,2019,2023/24,93
+Corn,Planted acres,Million acres,2019,2024/25,92.5
+Corn,Planted acres,Million acres,2019,2025/26,92.5
+Corn,Planted acres,Million acres,2019,2026/27,92.5
+Corn,Planted acres,Million acres,2019,2027/28,92
+Corn,Planted acres,Million acres,2019,2028/29,91.5
+Corn,Planted acres,Million acres,2020,2018/2019,89.129
+Corn,Planted acres,Million acres,2020,2019/2020,89.942
+Corn,Planted acres,Million acres,2020,2020/2021,94.5
+Corn,Planted acres,Million acres,2020,2021/2022,89
+Corn,Planted acres,Million acres,2020,2022/2023,89
+Corn,Planted acres,Million acres,2020,2023/2024,89
+Corn,Planted acres,Million acres,2020,2024/2025,89
+Corn,Planted acres,Million acres,2020,2025/2026,89
+Corn,Planted acres,Million acres,2020,2026/2027,89
+Corn,Planted acres,Million acres,2020,2027/2028,88.5
+Corn,Planted acres,Million acres,2020,2028/2029,88.5
+Corn,Planted acres,Million acres,2020,2029/2030,88.5
+Oats,Planted acres,Million acres,2019,2017/18,2.6
+Oats,Planted acres,Million acres,2019,2018/19,2.7
+Oats,Planted acres,Million acres,2019,2019/20,2.8
+Oats,Planted acres,Million acres,2019,2020/21,2.8
+Oats,Planted acres,Million acres,2019,2021/22,2.8
+Oats,Planted acres,Million acres,2019,2022/23,2.7
+Oats,Planted acres,Million acres,2019,2023/24,2.6
+Oats,Planted acres,Million acres,2019,2024/25,2.6
+Oats,Planted acres,Million acres,2019,2025/26,2.5
+Oats,Planted acres,Million acres,2019,2026/27,2.5
+Oats,Planted acres,Million acres,2019,2027/28,2.5
+Oats,Planted acres,Million acres,2019,2028/29,2.5
+Oats,Planted acres,Million acres,2020,2018/2019,2.746
+Oats,Planted acres,Million acres,2020,2019/2020,2.81
+Oats,Planted acres,Million acres,2020,2020/2021,2.9
+Oats,Planted acres,Million acres,2020,2021/2022,2.8
+Oats,Planted acres,Million acres,2020,2022/2023,2.8
+Oats,Planted acres,Million acres,2020,2023/2024,2.7
+Oats,Planted acres,Million acres,2020,2024/2025,2.6
+Oats,Planted acres,Million acres,2020,2025/2026,2.6
+Oats,Planted acres,Million acres,2020,2026/2027,2.5
+Oats,Planted acres,Million acres,2020,2027/2028,2.5
+Oats,Planted acres,Million acres,2020,2028/2029,2.5
+Oats,Planted acres,Million acres,2020,2029/2030,2.5
+Rice,Planted acres,Thousand acres,2019,2017/18,2463
+Rice,Planted acres,Thousand acres,2019,2018/19,2943
+Rice,Planted acres,Thousand acres,2019,2019/20,2720
+Rice,Planted acres,Thousand acres,2019,2020/21,2625
+Rice,Planted acres,Thousand acres,2019,2021/22,2625
+Rice,Planted acres,Thousand acres,2019,2022/23,2675
+Rice,Planted acres,Thousand acres,2019,2023/24,2675
+Rice,Planted acres,Thousand acres,2019,2024/25,2675
+Rice,Planted acres,Thousand acres,2019,2025/26,2675
+Rice,Planted acres,Thousand acres,2019,2026/27,2675
+Rice,Planted acres,Thousand acres,2019,2027/28,2675
+Rice,Planted acres,Thousand acres,2019,2028/29,2675
+Rice,Planted acres,Thousand acres,2020,2018/2019,2946
+Rice,Planted acres,Thousand acres,2020,2019/2020,2540
+Rice,Planted acres,Thousand acres,2020,2020/2021,2900
+Rice,Planted acres,Thousand acres,2020,2021/2022,2600
+Rice,Planted acres,Thousand acres,2020,2022/2023,2650
+Rice,Planted acres,Thousand acres,2020,2023/2024,2650
+Rice,Planted acres,Thousand acres,2020,2024/2025,2650
+Rice,Planted acres,Thousand acres,2020,2025/2026,2650
+Rice,Planted acres,Thousand acres,2020,2026/2027,2600
+Rice,Planted acres,Thousand acres,2020,2027/2028,2600
+Rice,Planted acres,Thousand acres,2020,2028/2029,2600
+Rice,Planted acres,Thousand acres,2020,2029/2030,2600
+Sorghum,Planted acres,Million acres,2019,2017/18,5.6
+Sorghum,Planted acres,Million acres,2019,2018/19,5.8
+Sorghum,Planted acres,Million acres,2019,2019/20,5.6
+Sorghum,Planted acres,Million acres,2019,2020/21,5.6
+Sorghum,Planted acres,Million acres,2019,2021/22,5.7
+Sorghum,Planted acres,Million acres,2019,2022/23,5.7
+Sorghum,Planted acres,Million acres,2019,2023/24,5.7
+Sorghum,Planted acres,Million acres,2019,2024/25,5.7
+Sorghum,Planted acres,Million acres,2019,2025/26,5.8
+Sorghum,Planted acres,Million acres,2019,2026/27,5.8
+Sorghum,Planted acres,Million acres,2019,2027/28,5.8
+Sorghum,Planted acres,Million acres,2019,2028/29,5.8
+Sorghum,Planted acres,Million acres,2020,2018/2019,5.69
+Sorghum,Planted acres,Million acres,2020,2019/2020,5.26
+Sorghum,Planted acres,Million acres,2020,2020/2021,5.7
+Sorghum,Planted acres,Million acres,2020,2021/2022,5.3
+Sorghum,Planted acres,Million acres,2020,2022/2023,5.3
+Sorghum,Planted acres,Million acres,2020,2023/2024,5.3
+Sorghum,Planted acres,Million acres,2020,2024/2025,5.3
+Sorghum,Planted acres,Million acres,2020,2025/2026,5.4
+Sorghum,Planted acres,Million acres,2020,2026/2027,5.4
+Sorghum,Planted acres,Million acres,2020,2027/2028,5.4
+Sorghum,Planted acres,Million acres,2020,2028/2029,5.4
+Sorghum,Planted acres,Million acres,2020,2029/2030,5.4
+Soybeans,Planted acres,Million acres,2019,2017/18,90.1
+Soybeans,Planted acres,Million acres,2019,2018/19,89.1
+Soybeans,Planted acres,Million acres,2019,2019/20,82.5
+Soybeans,Planted acres,Million acres,2019,2020/21,82.5
+Soybeans,Planted acres,Million acres,2019,2021/22,83
+Soybeans,Planted acres,Million acres,2019,2022/23,83.5
+Soybeans,Planted acres,Million acres,2019,2023/24,84
+Soybeans,Planted acres,Million acres,2019,2024/25,84.5
+Soybeans,Planted acres,Million acres,2019,2025/26,85
+Soybeans,Planted acres,Million acres,2019,2026/27,85
+Soybeans,Planted acres,Million acres,2019,2027/28,85.5
+Soybeans,Planted acres,Million acres,2019,2028/29,85.5
+Soybeans,Planted acres,Million acres,2020,2018/2019,89.167
+Soybeans,Planted acres,Million acres,2020,2019/2020,76.457
+Soybeans,Planted acres,Million acres,2020,2020/2021,84
+Soybeans,Planted acres,Million acres,2020,2021/2022,86
+Soybeans,Planted acres,Million acres,2020,2022/2023,85
+Soybeans,Planted acres,Million acres,2020,2023/2024,85
+Soybeans,Planted acres,Million acres,2020,2024/2025,85
+Soybeans,Planted acres,Million acres,2020,2025/2026,85.5
+Soybeans,Planted acres,Million acres,2020,2026/2027,86
+Soybeans,Planted acres,Million acres,2020,2027/2028,86
+Soybeans,Planted acres,Million acres,2020,2028/2029,86.5
+Soybeans,Planted acres,Million acres,2020,2029/2030,86
+Upland Cotton,Planted acres,Million acres,2019,2017/18,12.36
+Upland Cotton,Planted acres,Million acres,2019,2018/19,13.8
+Upland Cotton,Planted acres,Million acres,2019,2019/20,13.5
+Upland Cotton,Planted acres,Million acres,2019,2020/21,12.5
+Upland Cotton,Planted acres,Million acres,2019,2021/22,12.4
+Upland Cotton,Planted acres,Million acres,2019,2022/23,12.5
+Upland Cotton,Planted acres,Million acres,2019,2023/24,12.6
+Upland Cotton,Planted acres,Million acres,2019,2024/25,12.7
+Upland Cotton,Planted acres,Million acres,2019,2025/26,12.8
+Upland Cotton,Planted acres,Million acres,2019,2026/27,12.9
+Upland Cotton,Planted acres,Million acres,2019,2027/28,13
+Upland Cotton,Planted acres,Million acres,2019,2028/29,13.1
+Upland Cotton,Planted acres,Million acres,2020,2018/2019,13.85
+Upland Cotton,Planted acres,Million acres,2020,2019/2020,13.531
+Upland Cotton,Planted acres,Million acres,2020,2020/2021,11.8
+Upland Cotton,Planted acres,Million acres,2020,2021/2022,12.5
+Upland Cotton,Planted acres,Million acres,2020,2022/2023,12.6
+Upland Cotton,Planted acres,Million acres,2020,2023/2024,12.7
+Upland Cotton,Planted acres,Million acres,2020,2024/2025,12.8
+Upland Cotton,Planted acres,Million acres,2020,2025/2026,12.9
+Upland Cotton,Planted acres,Million acres,2020,2026/2027,13
+Upland Cotton,Planted acres,Million acres,2020,2027/2028,13.1
+Upland Cotton,Planted acres,Million acres,2020,2028/2029,13.2
+Upland Cotton,Planted acres,Million acres,2020,2029/2030,13.3
+Wheat,Planted acres,Million acres,2019,2017/18,46
+Wheat,Planted acres,Million acres,2019,2018/19,47.8
+Wheat,Planted acres,Million acres,2019,2019/20,51
+Wheat,Planted acres,Million acres,2019,2020/21,50
+Wheat,Planted acres,Million acres,2019,2021/22,49.5
+Wheat,Planted acres,Million acres,2019,2022/23,49
+Wheat,Planted acres,Million acres,2019,2023/24,49
+Wheat,Planted acres,Million acres,2019,2024/25,49
+Wheat,Planted acres,Million acres,2019,2025/26,48.5
+Wheat,Planted acres,Million acres,2019,2026/27,48.5
+Wheat,Planted acres,Million acres,2019,2027/28,48
+Wheat,Planted acres,Million acres,2019,2028/29,48
+Wheat,Planted acres,Million acres,2020,2018/2019,47.815
+Wheat,Planted acres,Million acres,2020,2019/2020,45.158
+Wheat,Planted acres,Million acres,2020,2020/2021,45
+Wheat,Planted acres,Million acres,2020,2021/2022,45.5
+Wheat,Planted acres,Million acres,2020,2022/2023,46.5
+Wheat,Planted acres,Million acres,2020,2023/2024,46.5
+Wheat,Planted acres,Million acres,2020,2024/2025,46.5
+Wheat,Planted acres,Million acres,2020,2025/2026,46.5
+Wheat,Planted acres,Million acres,2020,2026/2027,46
+Wheat,Planted acres,Million acres,2020,2027/2028,46
+Wheat,Planted acres,Million acres,2020,2028/2029,45.5
+Wheat,Planted acres,Million acres,2020,2029/2030,45.5
+
+Commodity,YearProjected,Year,textbox2,Chart1_SeriesGroup2_label,Chart1_SeriesGroup2_Chart1_CategoryGroup1_label,Chart1_SeriesGroup2_Chart1_CategoryGroup1_Value_Y
+"Barley, million acres",Planted acres (Projected: 2019),2017/18,2.5,,,
+"Barley, million acres",Planted acres (Projected: 2019),2018/19,2.5,,,
+"Barley, million acres",Planted acres (Projected: 2019),2018/2019,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2019/20,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2019),2019/2020,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2020/2021,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2020/21,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2019),2021/2022,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2021/22,2.7,,,
+"Barley, million acres",Planted acres (Projected: 2019),2022/2023,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2022/23,2.8,,,
+"Barley, million acres",Planted acres (Projected: 2019),2023/2024,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2023/24,2.9,,,
+"Barley, million acres",Planted acres (Projected: 2019),2024/2025,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2024/25,2.9,,,
+"Barley, million acres",Planted acres (Projected: 2019),2025/2026,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2025/26,2.9,,,
+"Barley, million acres",Planted acres (Projected: 2019),2026/2027,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2026/27,2.9,,,
+"Barley, million acres",Planted acres (Projected: 2019),2027/2028,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2027/28,2.9,,,
+"Barley, million acres",Planted acres (Projected: 2019),2028/2029,,,,
+"Barley, million acres",Planted acres (Projected: 2019),2028/29,2.9,,,
+"Barley, million acres",Planted acres (Projected: 2019),2029/2030,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2017/18,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2018/19,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2018/2019,2.548,,,
+"Barley, million acres",Planted acres (Projected: 2020),2019/20,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2019/2020,2.721,,,
+"Barley, million acres",Planted acres (Projected: 2020),2020/2021,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2020),2020/21,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2021/2022,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2020),2021/22,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2022/2023,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2020),2022/23,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2023/2024,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2020),2023/24,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2024/2025,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2020),2024/25,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2025/2026,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2020),2025/26,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2026/2027,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2020),2026/27,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2027/2028,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2020),2027/28,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2028/2029,2.6,,,
+"Barley, million acres",Planted acres (Projected: 2020),2028/29,,,,
+"Barley, million acres",Planted acres (Projected: 2020),2029/2030,2.6,,,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2017/18,2.5
+"Barley, million acres",,,,Planted acres (Projected: 2019),2018/19,2.5
+"Barley, million acres",,,,Planted acres (Projected: 2019),2018/2019,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2019/20,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2019),2019/2020,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2020/2021,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2020/21,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2019),2021/2022,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2021/22,2.7
+"Barley, million acres",,,,Planted acres (Projected: 2019),2022/2023,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2022/23,2.8
+"Barley, million acres",,,,Planted acres (Projected: 2019),2023/2024,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2023/24,2.9
+"Barley, million acres",,,,Planted acres (Projected: 2019),2024/2025,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2024/25,2.9
+"Barley, million acres",,,,Planted acres (Projected: 2019),2025/2026,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2025/26,2.9
+"Barley, million acres",,,,Planted acres (Projected: 2019),2026/2027,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2026/27,2.9
+"Barley, million acres",,,,Planted acres (Projected: 2019),2027/2028,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2027/28,2.9
+"Barley, million acres",,,,Planted acres (Projected: 2019),2028/2029,
+"Barley, million acres",,,,Planted acres (Projected: 2019),2028/29,2.9
+"Barley, million acres",,,,Planted acres (Projected: 2019),2029/2030,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2017/18,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2018/19,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2018/2019,2.548
+"Barley, million acres",,,,Planted acres (Projected: 2020),2019/20,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2019/2020,2.721
+"Barley, million acres",,,,Planted acres (Projected: 2020),2020/2021,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2020),2020/21,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2021/2022,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2020),2021/22,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2022/2023,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2020),2022/23,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2023/2024,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2020),2023/24,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2024/2025,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2020),2024/25,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2025/2026,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2020),2025/26,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2026/2027,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2020),2026/27,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2027/2028,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2020),2027/28,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2028/2029,2.6
+"Barley, million acres",,,,Planted acres (Projected: 2020),2028/29,
+"Barley, million acres",,,,Planted acres (Projected: 2020),2029/2030,2.6
+"Corn, million acres",Planted acres (Projected: 2019),2017/18,90.2,,,
+"Corn, million acres",Planted acres (Projected: 2019),2018/19,89.1,,,
+"Corn, million acres",Planted acres (Projected: 2019),2018/2019,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2019/20,92,,,
+"Corn, million acres",Planted acres (Projected: 2019),2019/2020,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2020/2021,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2020/21,93,,,
+"Corn, million acres",Planted acres (Projected: 2019),2021/2022,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2021/22,93,,,
+"Corn, million acres",Planted acres (Projected: 2019),2022/2023,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2022/23,93,,,
+"Corn, million acres",Planted acres (Projected: 2019),2023/2024,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2023/24,93,,,
+"Corn, million acres",Planted acres (Projected: 2019),2024/2025,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2024/25,92.5,,,
+"Corn, million acres",Planted acres (Projected: 2019),2025/2026,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2025/26,92.5,,,
+"Corn, million acres",Planted acres (Projected: 2019),2026/2027,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2026/27,92.5,,,
+"Corn, million acres",Planted acres (Projected: 2019),2027/2028,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2027/28,92,,,
+"Corn, million acres",Planted acres (Projected: 2019),2028/2029,,,,
+"Corn, million acres",Planted acres (Projected: 2019),2028/29,91.5,,,
+"Corn, million acres",Planted acres (Projected: 2019),2029/2030,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2017/18,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2018/19,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2018/2019,89.129,,,
+"Corn, million acres",Planted acres (Projected: 2020),2019/20,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2019/2020,89.942,,,
+"Corn, million acres",Planted acres (Projected: 2020),2020/2021,94.5,,,
+"Corn, million acres",Planted acres (Projected: 2020),2020/21,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2021/2022,89,,,
+"Corn, million acres",Planted acres (Projected: 2020),2021/22,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2022/2023,89,,,
+"Corn, million acres",Planted acres (Projected: 2020),2022/23,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2023/2024,89,,,
+"Corn, million acres",Planted acres (Projected: 2020),2023/24,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2024/2025,89,,,
+"Corn, million acres",Planted acres (Projected: 2020),2024/25,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2025/2026,89,,,
+"Corn, million acres",Planted acres (Projected: 2020),2025/26,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2026/2027,89,,,
+"Corn, million acres",Planted acres (Projected: 2020),2026/27,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2027/2028,88.5,,,
+"Corn, million acres",Planted acres (Projected: 2020),2027/28,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2028/2029,88.5,,,
+"Corn, million acres",Planted acres (Projected: 2020),2028/29,,,,
+"Corn, million acres",Planted acres (Projected: 2020),2029/2030,88.5,,,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2017/18,90.2
+"Corn, million acres",,,,Planted acres (Projected: 2019),2018/19,89.1
+"Corn, million acres",,,,Planted acres (Projected: 2019),2018/2019,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2019/20,92
+"Corn, million acres",,,,Planted acres (Projected: 2019),2019/2020,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2020/2021,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2020/21,93
+"Corn, million acres",,,,Planted acres (Projected: 2019),2021/2022,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2021/22,93
+"Corn, million acres",,,,Planted acres (Projected: 2019),2022/2023,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2022/23,93
+"Corn, million acres",,,,Planted acres (Projected: 2019),2023/2024,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2023/24,93
+"Corn, million acres",,,,Planted acres (Projected: 2019),2024/2025,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2024/25,92.5
+"Corn, million acres",,,,Planted acres (Projected: 2019),2025/2026,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2025/26,92.5
+"Corn, million acres",,,,Planted acres (Projected: 2019),2026/2027,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2026/27,92.5
+"Corn, million acres",,,,Planted acres (Projected: 2019),2027/2028,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2027/28,92
+"Corn, million acres",,,,Planted acres (Projected: 2019),2028/2029,
+"Corn, million acres",,,,Planted acres (Projected: 2019),2028/29,91.5
+"Corn, million acres",,,,Planted acres (Projected: 2019),2029/2030,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2017/18,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2018/19,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2018/2019,89.129
+"Corn, million acres",,,,Planted acres (Projected: 2020),2019/20,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2019/2020,89.942
+"Corn, million acres",,,,Planted acres (Projected: 2020),2020/2021,94.5
+"Corn, million acres",,,,Planted acres (Projected: 2020),2020/21,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2021/2022,89
+"Corn, million acres",,,,Planted acres (Projected: 2020),2021/22,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2022/2023,89
+"Corn, million acres",,,,Planted acres (Projected: 2020),2022/23,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2023/2024,89
+"Corn, million acres",,,,Planted acres (Projected: 2020),2023/24,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2024/2025,89
+"Corn, million acres",,,,Planted acres (Projected: 2020),2024/25,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2025/2026,89
+"Corn, million acres",,,,Planted acres (Projected: 2020),2025/26,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2026/2027,89
+"Corn, million acres",,,,Planted acres (Projected: 2020),2026/27,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2027/2028,88.5
+"Corn, million acres",,,,Planted acres (Projected: 2020),2027/28,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2028/2029,88.5
+"Corn, million acres",,,,Planted acres (Projected: 2020),2028/29,
+"Corn, million acres",,,,Planted acres (Projected: 2020),2029/2030,88.5
+"Oats, million acres",Planted acres (Projected: 2019),2017/18,2.6,,,
+"Oats, million acres",Planted acres (Projected: 2019),2018/19,2.7,,,
+"Oats, million acres",Planted acres (Projected: 2019),2018/2019,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2019/20,2.8,,,
+"Oats, million acres",Planted acres (Projected: 2019),2019/2020,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2020/2021,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2020/21,2.8,,,
+"Oats, million acres",Planted acres (Projected: 2019),2021/2022,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2021/22,2.8,,,
+"Oats, million acres",Planted acres (Projected: 2019),2022/2023,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2022/23,2.7,,,
+"Oats, million acres",Planted acres (Projected: 2019),2023/2024,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2023/24,2.6,,,
+"Oats, million acres",Planted acres (Projected: 2019),2024/2025,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2024/25,2.6,,,
+"Oats, million acres",Planted acres (Projected: 2019),2025/2026,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2025/26,2.5,,,
+"Oats, million acres",Planted acres (Projected: 2019),2026/2027,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2026/27,2.5,,,
+"Oats, million acres",Planted acres (Projected: 2019),2027/2028,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2027/28,2.5,,,
+"Oats, million acres",Planted acres (Projected: 2019),2028/2029,,,,
+"Oats, million acres",Planted acres (Projected: 2019),2028/29,2.5,,,
+"Oats, million acres",Planted acres (Projected: 2019),2029/2030,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2017/18,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2018/19,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2018/2019,2.746,,,
+"Oats, million acres",Planted acres (Projected: 2020),2019/20,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2019/2020,2.81,,,
+"Oats, million acres",Planted acres (Projected: 2020),2020/2021,2.9,,,
+"Oats, million acres",Planted acres (Projected: 2020),2020/21,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2021/2022,2.8,,,
+"Oats, million acres",Planted acres (Projected: 2020),2021/22,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2022/2023,2.8,,,
+"Oats, million acres",Planted acres (Projected: 2020),2022/23,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2023/2024,2.7,,,
+"Oats, million acres",Planted acres (Projected: 2020),2023/24,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2024/2025,2.6,,,
+"Oats, million acres",Planted acres (Projected: 2020),2024/25,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2025/2026,2.6,,,
+"Oats, million acres",Planted acres (Projected: 2020),2025/26,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2026/2027,2.5,,,
+"Oats, million acres",Planted acres (Projected: 2020),2026/27,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2027/2028,2.5,,,
+"Oats, million acres",Planted acres (Projected: 2020),2027/28,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2028/2029,2.5,,,
+"Oats, million acres",Planted acres (Projected: 2020),2028/29,,,,
+"Oats, million acres",Planted acres (Projected: 2020),2029/2030,2.5,,,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2017/18,2.6
+"Oats, million acres",,,,Planted acres (Projected: 2019),2018/19,2.7
+"Oats, million acres",,,,Planted acres (Projected: 2019),2018/2019,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2019/20,2.8
+"Oats, million acres",,,,Planted acres (Projected: 2019),2019/2020,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2020/2021,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2020/21,2.8
+"Oats, million acres",,,,Planted acres (Projected: 2019),2021/2022,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2021/22,2.8
+"Oats, million acres",,,,Planted acres (Projected: 2019),2022/2023,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2022/23,2.7
+"Oats, million acres",,,,Planted acres (Projected: 2019),2023/2024,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2023/24,2.6
+"Oats, million acres",,,,Planted acres (Projected: 2019),2024/2025,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2024/25,2.6
+"Oats, million acres",,,,Planted acres (Projected: 2019),2025/2026,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2025/26,2.5
+"Oats, million acres",,,,Planted acres (Projected: 2019),2026/2027,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2026/27,2.5
+"Oats, million acres",,,,Planted acres (Projected: 2019),2027/2028,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2027/28,2.5
+"Oats, million acres",,,,Planted acres (Projected: 2019),2028/2029,
+"Oats, million acres",,,,Planted acres (Projected: 2019),2028/29,2.5
+"Oats, million acres",,,,Planted acres (Projected: 2019),2029/2030,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2017/18,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2018/19,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2018/2019,2.746
+"Oats, million acres",,,,Planted acres (Projected: 2020),2019/20,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2019/2020,2.81
+"Oats, million acres",,,,Planted acres (Projected: 2020),2020/2021,2.9
+"Oats, million acres",,,,Planted acres (Projected: 2020),2020/21,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2021/2022,2.8
+"Oats, million acres",,,,Planted acres (Projected: 2020),2021/22,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2022/2023,2.8
+"Oats, million acres",,,,Planted acres (Projected: 2020),2022/23,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2023/2024,2.7
+"Oats, million acres",,,,Planted acres (Projected: 2020),2023/24,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2024/2025,2.6
+"Oats, million acres",,,,Planted acres (Projected: 2020),2024/25,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2025/2026,2.6
+"Oats, million acres",,,,Planted acres (Projected: 2020),2025/26,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2026/2027,2.5
+"Oats, million acres",,,,Planted acres (Projected: 2020),2026/27,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2027/2028,2.5
+"Oats, million acres",,,,Planted acres (Projected: 2020),2027/28,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2028/2029,2.5
+"Oats, million acres",,,,Planted acres (Projected: 2020),2028/29,
+"Oats, million acres",,,,Planted acres (Projected: 2020),2029/2030,2.5
+"Rice, thousand acres",Planted acres (Projected: 2019),2017/18,2463,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2018/19,2943,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2018/2019,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2019/20,2720,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2019/2020,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2020/2021,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2020/21,2625,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2021/2022,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2021/22,2625,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2022/2023,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2022/23,2675,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2023/2024,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2023/24,2675,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2024/2025,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2024/25,2675,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2025/2026,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2025/26,2675,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2026/2027,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2026/27,2675,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2027/2028,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2027/28,2675,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2028/2029,,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2028/29,2675,,,
+"Rice, thousand acres",Planted acres (Projected: 2019),2029/2030,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2017/18,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2018/19,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2018/2019,2946,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2019/20,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2019/2020,2540,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2020/2021,2900,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2020/21,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2021/2022,2600,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2021/22,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2022/2023,2650,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2022/23,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2023/2024,2650,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2023/24,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2024/2025,2650,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2024/25,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2025/2026,2650,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2025/26,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2026/2027,2600,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2026/27,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2027/2028,2600,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2027/28,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2028/2029,2600,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2028/29,,,,
+"Rice, thousand acres",Planted acres (Projected: 2020),2029/2030,2600,,,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2017/18,2463
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2018/19,2943
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2018/2019,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2019/20,2720
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2019/2020,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2020/2021,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2020/21,2625
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2021/2022,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2021/22,2625
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2022/2023,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2022/23,2675
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2023/2024,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2023/24,2675
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2024/2025,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2024/25,2675
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2025/2026,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2025/26,2675
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2026/2027,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2026/27,2675
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2027/2028,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2027/28,2675
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2028/2029,
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2028/29,2675
+"Rice, thousand acres",,,,Planted acres (Projected: 2019),2029/2030,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2017/18,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2018/19,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2018/2019,2946
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2019/20,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2019/2020,2540
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2020/2021,2900
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2020/21,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2021/2022,2600
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2021/22,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2022/2023,2650
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2022/23,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2023/2024,2650
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2023/24,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2024/2025,2650
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2024/25,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2025/2026,2650
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2025/26,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2026/2027,2600
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2026/27,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2027/2028,2600
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2027/28,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2028/2029,2600
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2028/29,
+"Rice, thousand acres",,,,Planted acres (Projected: 2020),2029/2030,2600
+"Sorghum, million acres",Planted acres (Projected: 2019),2017/18,5.6,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2018/19,5.8,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2018/2019,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2019/20,5.6,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2019/2020,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2020/2021,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2020/21,5.6,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2021/2022,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2021/22,5.7,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2022/2023,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2022/23,5.7,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2023/2024,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2023/24,5.7,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2024/2025,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2024/25,5.7,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2025/2026,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2025/26,5.8,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2026/2027,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2026/27,5.8,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2027/2028,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2027/28,5.8,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2028/2029,,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2028/29,5.8,,,
+"Sorghum, million acres",Planted acres (Projected: 2019),2029/2030,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2017/18,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2018/19,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2018/2019,5.69,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2019/20,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2019/2020,5.26,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2020/2021,5.7,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2020/21,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2021/2022,5.3,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2021/22,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2022/2023,5.3,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2022/23,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2023/2024,5.3,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2023/24,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2024/2025,5.3,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2024/25,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2025/2026,5.4,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2025/26,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2026/2027,5.4,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2026/27,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2027/2028,5.4,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2027/28,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2028/2029,5.4,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2028/29,,,,
+"Sorghum, million acres",Planted acres (Projected: 2020),2029/2030,5.4,,,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2017/18,5.6
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2018/19,5.8
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2018/2019,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2019/20,5.6
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2019/2020,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2020/2021,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2020/21,5.6
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2021/2022,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2021/22,5.7
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2022/2023,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2022/23,5.7
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2023/2024,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2023/24,5.7
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2024/2025,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2024/25,5.7
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2025/2026,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2025/26,5.8
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2026/2027,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2026/27,5.8
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2027/2028,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2027/28,5.8
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2028/2029,
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2028/29,5.8
+"Sorghum, million acres",,,,Planted acres (Projected: 2019),2029/2030,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2017/18,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2018/19,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2018/2019,5.69
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2019/20,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2019/2020,5.26
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2020/2021,5.7
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2020/21,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2021/2022,5.3
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2021/22,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2022/2023,5.3
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2022/23,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2023/2024,5.3
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2023/24,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2024/2025,5.3
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2024/25,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2025/2026,5.4
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2025/26,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2026/2027,5.4
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2026/27,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2027/2028,5.4
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2027/28,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2028/2029,5.4
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2028/29,
+"Sorghum, million acres",,,,Planted acres (Projected: 2020),2029/2030,5.4
+"Soybeans, million acres",Planted acres (Projected: 2019),2017/18,90.1,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2018/19,89.1,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2018/2019,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2019/20,82.5,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2019/2020,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2020/2021,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2020/21,82.5,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2021/2022,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2021/22,83,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2022/2023,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2022/23,83.5,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2023/2024,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2023/24,84,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2024/2025,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2024/25,84.5,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2025/2026,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2025/26,85,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2026/2027,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2026/27,85,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2027/2028,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2027/28,85.5,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2028/2029,,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2028/29,85.5,,,
+"Soybeans, million acres",Planted acres (Projected: 2019),2029/2030,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2017/18,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2018/19,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2018/2019,89.167,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2019/20,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2019/2020,76.457,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2020/2021,84,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2020/21,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2021/2022,86,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2021/22,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2022/2023,85,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2022/23,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2023/2024,85,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2023/24,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2024/2025,85,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2024/25,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2025/2026,85.5,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2025/26,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2026/2027,86,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2026/27,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2027/2028,86,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2027/28,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2028/2029,86.5,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2028/29,,,,
+"Soybeans, million acres",Planted acres (Projected: 2020),2029/2030,86,,,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2017/18,90.1
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2018/19,89.1
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2018/2019,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2019/20,82.5
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2019/2020,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2020/2021,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2020/21,82.5
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2021/2022,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2021/22,83
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2022/2023,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2022/23,83.5
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2023/2024,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2023/24,84
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2024/2025,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2024/25,84.5
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2025/2026,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2025/26,85
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2026/2027,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2026/27,85
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2027/2028,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2027/28,85.5
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2028/2029,
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2028/29,85.5
+"Soybeans, million acres",,,,Planted acres (Projected: 2019),2029/2030,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2017/18,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2018/19,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2018/2019,89.167
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2019/20,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2019/2020,76.457
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2020/2021,84
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2020/21,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2021/2022,86
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2021/22,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2022/2023,85
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2022/23,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2023/2024,85
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2023/24,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2024/2025,85
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2024/25,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2025/2026,85.5
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2025/26,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2026/2027,86
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2026/27,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2027/2028,86
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2027/28,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2028/2029,86.5
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2028/29,
+"Soybeans, million acres",,,,Planted acres (Projected: 2020),2029/2030,86
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2017/18,12.36,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2018/19,13.8,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2018/2019,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2019/20,13.5,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2019/2020,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2020/2021,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2020/21,12.5,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2021/2022,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2021/22,12.4,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2022/2023,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2022/23,12.5,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2023/2024,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2023/24,12.6,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2024/2025,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2024/25,12.7,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2025/2026,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2025/26,12.8,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2026/2027,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2026/27,12.9,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2027/2028,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2027/28,13,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2028/2029,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2028/29,13.1,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2019),2029/2030,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2017/18,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2018/19,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2018/2019,13.85,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2019/20,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2019/2020,13.531,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2020/2021,11.8,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2020/21,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2021/2022,12.5,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2021/22,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2022/2023,12.6,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2022/23,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2023/2024,12.7,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2023/24,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2024/2025,12.8,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2024/25,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2025/2026,12.9,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2025/26,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2026/2027,13,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2026/27,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2027/2028,13.1,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2027/28,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2028/2029,13.2,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2028/29,,,,
+"Upland Cotton, million acres",Planted acres (Projected: 2020),2029/2030,13.3,,,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2017/18,12.36
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2018/19,13.8
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2018/2019,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2019/20,13.5
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2019/2020,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2020/2021,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2020/21,12.5
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2021/2022,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2021/22,12.4
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2022/2023,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2022/23,12.5
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2023/2024,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2023/24,12.6
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2024/2025,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2024/25,12.7
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2025/2026,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2025/26,12.8
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2026/2027,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2026/27,12.9
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2027/2028,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2027/28,13
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2028/2029,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2028/29,13.1
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2019),2029/2030,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2017/18,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2018/19,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2018/2019,13.85
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2019/20,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2019/2020,13.531
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2020/2021,11.8
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2020/21,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2021/2022,12.5
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2021/22,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2022/2023,12.6
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2022/23,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2023/2024,12.7
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2023/24,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2024/2025,12.8
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2024/25,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2025/2026,12.9
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2025/26,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2026/2027,13
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2026/27,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2027/2028,13.1
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2027/28,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2028/2029,13.2
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2028/29,
+"Upland Cotton, million acres",,,,Planted acres (Projected: 2020),2029/2030,13.3
+"Wheat, million acres",Planted acres (Projected: 2019),2017/18,46,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2018/19,47.8,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2018/2019,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2019/20,51,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2019/2020,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2020/2021,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2020/21,50,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2021/2022,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2021/22,49.5,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2022/2023,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2022/23,49,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2023/2024,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2023/24,49,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2024/2025,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2024/25,49,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2025/2026,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2025/26,48.5,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2026/2027,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2026/27,48.5,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2027/2028,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2027/28,48,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2028/2029,,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2028/29,48,,,
+"Wheat, million acres",Planted acres (Projected: 2019),2029/2030,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2017/18,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2018/19,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2018/2019,47.815,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2019/20,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2019/2020,45.158,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2020/2021,45,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2020/21,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2021/2022,45.5,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2021/22,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2022/2023,46.5,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2022/23,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2023/2024,46.5,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2023/24,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2024/2025,46.5,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2024/25,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2025/2026,46.5,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2025/26,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2026/2027,46,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2026/27,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2027/2028,46,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2027/28,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2028/2029,45.5,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2028/29,,,,
+"Wheat, million acres",Planted acres (Projected: 2020),2029/2030,45.5,,,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2017/18,46
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2018/19,47.8
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2018/2019,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2019/20,51
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2019/2020,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2020/2021,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2020/21,50
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2021/2022,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2021/22,49.5
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2022/2023,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2022/23,49
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2023/2024,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2023/24,49
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2024/2025,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2024/25,49
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2025/2026,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2025/26,48.5
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2026/2027,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2026/27,48.5
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2027/2028,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2027/28,48
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2028/2029,
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2028/29,48
+"Wheat, million acres",,,,Planted acres (Projected: 2019),2029/2030,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2017/18,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2018/19,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2018/2019,47.815
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2019/20,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2019/2020,45.158
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2020/2021,45
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2020/21,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2021/2022,45.5
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2021/22,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2022/2023,46.5
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2022/23,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2023/2024,46.5
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2023/24,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2024/2025,46.5
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2024/25,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2025/2026,46.5
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2025/26,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2026/2027,46
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2026/27,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2027/2028,46
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2027/28,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2028/2029,45.5
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2028/29,
+"Wheat, million acres",,,,Planted acres (Projected: 2020),2029/2030,45.5
+
