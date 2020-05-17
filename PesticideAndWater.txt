@@ -107,12 +107,12 @@ async function calculatedCsvPesticideScore(csvCornYield, csvWateredCornAcres, cs
 
 //compare user input to calculated csv total and return grade for pesticides
 if userPesticideScore > csvPesticideScore
-	if userPesticideScore <= 0.75*csv //less than 75% of csv total
-		return A
-	else if input total <= 0.5*csv //0.75*csv < input total <= 0.5*csv
-		return B
-	else //0.5*csv < input total <= csv
+	if userPesticideScore < 10
 		return C
+	else if userPesticideScore >= 10  & userPesticideScore < 50
+		return B
+	else if userPesticideScore >= 50
+		return A
 else
 	return D
 
