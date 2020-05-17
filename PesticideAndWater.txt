@@ -1,0 +1,125 @@
+//user enters number of bushels of corn
+userCornYield = prompt('Enter your average annual yield of corn in bushels: ');
+
+//user enters number of acres used for planting corn
+input = prompt('Enter number of acres for planting corn: ');
+userPlantedCornAcres = parseInt(input);
+
+//user enters number of acres of corn that is irrigated
+input = prompt('Enter number of corn acres that is watered: ');
+userWateredCornAcres = pareseInt(input);
+
+//user enters the number of acres that is treated with pesticides
+userPest = prompt('Enter number of corn acres that is treated with pesticides: ');
+
+//user enters the number of acres that is treated with insecticides
+userInsect = prompt('Enter number of corn acres that is treated with insecticides: ');
+
+//user enters the number of acres that is treated with herbicides
+userHerb = prompt('Enter number of corn acres that is treated with herbicides: ');
+
+//user enters the number of acres that is treated with fungicides
+userFungi = prompt('Enter number of corn acres that is treated with fungicides: ');
+
+
+
+
+//calculate pesticide usage into percentage (decimal format) based on user input
+userDecPest = parseInt(userPest)/userPlantedCornAcres
+
+//calculate herbicide usage into percentage (decimal format) based on user input
+userDecHerb = parseInt(userHerb)/userPlantedCornAcres
+
+//calculate insecticide usage into percentage (decimal format) based on user input
+userDecInsect = parseInt(userInsect)/userPlantedCornAcres
+
+//calculate pesticide usage into percentage (decimal format) based on user input
+userDecFungi = parseInt(userFungi)/userPlantedCornAcres
+
+//sum of all decimals calculated from user input
+userPesticideCorn = userDecPest + userDecHerb + userDecInsect + userDecFungi;
+
+//user corn to pesticide ratio
+async function calculatedUserPesticideScore(userCornYield, userPesticideCorn, userPlantedCornAcres) {
+  userPesticideScore =  userCornYield/(userPesticideCorn*userPlantedCornAcres) 
+  return userPesticideScore;
+}
+
+
+
+
+//pesticide corn
+async function retrievePesticideCornData() {
+  csvPest = await CSVToJSON().fromFile('PesticideCorn.csv')
+  return csvPest[2].estimate;
+}
+
+//insecticide corn
+async function retrieveInsecticideCornData() {
+  csvInsect = await CSVToJSON().fromFile('PesticideCorn.csv')
+  return csvInsect[5].estimate;
+}
+
+//herbicide corn
+async function retrieveHerbicideCornData() {
+  csvHerb = await CSVToJSON().fromFile('PesticideCorn.csv')
+  return csvHerb[8].estimate;
+}
+
+//fungicide corn
+async function retrieveFungicideCornData() {
+  csvFungi = await CSVToJSON().fromFile('PesticideCorn.csv')
+  return csvFungi[11].estimate;
+}
+
+//add all the percentages and convert to decimal format
+async function csvDecPesticideCorn(csvPest,csvHerb,csvInsect,csvFungi) {
+  totalPestPercentage = (parseInt(csvPest) + parseInt(csvHerb) + parseInt(csvInsect) + parseInt(csvFungi))/100;
+  return csvPesticideCorn;
+}
+
+//csv planted corn acres
+async function retrievePlantedCornData() {
+  csvPlantedCornAcres = await CSVToJSON().fromFile('WaterCorn.csv')
+  return csvPlantedCornAcres[1].estimate;
+}
+
+//csv irrigated corn acres
+async function retrieveWateredCornData() {
+  csvWateredCornAcres = await CSVToJSON().fromFile('WaterCorn.csv')
+  return csvWateredCornAcres[2].estimate;
+}
+
+//csv corn yield per acre
+async function retrieveCornYieldData() {
+  csvCornYield = await CSVToJSON().fromFile('WaterCorn.csv')
+  return csvCornYield[5].estimate;
+}
+
+//csv corn to pesticide ratio
+async function calculatedCsvPesticideScore(csvCornYield, csvWateredCornAcres, csvPesticideCorn, csvPlantedCornAcres) {
+  csvPesticideScore =  (csvCornYield*csvWateredCornAcres)/(csvPesticideCorn*csvPlantedCornAcres) 
+  return csvPesticideScore;
+}
+
+
+
+
+//compare user input to calculated csv total and return grade for pesticides
+if userPesticideScore > csvPesticideScore
+	if userPesticideScore <= 0.75*csv //less than 75% of csv total
+		return A
+	else if input total <= 0.5*csv //0.75*csv < input total <= 0.5*csv
+		return B
+	else //0.5*csv < input total <= csv
+		return C
+else
+	return D
+
+
+
+
+
+
+
+
