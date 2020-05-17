@@ -39,10 +39,6 @@ async function calculateChemicalScore() {
 	input = prompt('Enter number of acres for planting corn: ');
 	userPlantedCornAcres = parseInt(input);
 
-	//user enters number of acres of corn that is irrigated
-	input = prompt('Enter number of corn acres that is watered: ');
-	userWateredCornAcres = parseInt(input);
-
 	//user enters the number of acres that is treated with pesticides
 	userPest = prompt('Enter number of corn acres that is treated with pesticides: ');
 
@@ -89,6 +85,21 @@ async function calculateChemicalScore() {
 		return "D";
 }
 
+async function calculateWaterScore() {
+	// user enters number of bushels of corn
+	input1 = prompt('Enter your average annual yield of corn in bushels: ');
+	userCornYield = parseInt(input1);
+	// user enters number of acres of corn that is irrigated
+	input2 = prompt('Enter number of corn acres that is watered: ');
+	userWateredCornAcres = parseInt(input2);
+	console.log(userCornYield);
+	console.log(userWateredCornAcres);
+
+	userCornWaterRatio = await Calculate.userCornWaterRatio(userCornYield, userWateredCornAcres);
+	waterScore = await Calculate.waterScore(userCornWaterRatio);
+	return waterScore;
+}
+
 async function runFarmerApp() {
 	const name = prompt('Enter something you would like to evaluate: ');
 	let input;
@@ -116,6 +127,9 @@ async function runFarmerApp() {
 			score = CattleScore.getPastureScore(min, actual);
 			console.log("To use the minimum amount of pasture, you need " + score[0] + " less acres. Your pasture score is " + score[1]);
 			break;
+		case "water score":
+				console.log("Your water score is " + await calculateWaterScore());
+				break;
 		default: // For user help
 			console.log("Commands:");
 			//console.log(Object.getOwnPropertyNames(Retrieve).filter(p => typeof Retrieve[p] === 'function'));
