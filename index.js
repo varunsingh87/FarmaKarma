@@ -5,6 +5,7 @@ const Constants = require('./constants.json');
 const CSVToJSON = require('csvtojson');
 const Retrieve = require('./Retrieve.js');
 const Calculate = require('./Calculate.js');
+const CattleScore = require('./CattleScore.js');
 
 async function compareData(input, callbackFunc) {
 	let all = await callbackFunc(); // Store retrieved data
@@ -105,7 +106,8 @@ async function runFarmerApp() {
 			console.log("Your chemical score is " + await calculateChemicalScore());
 			break;
 		case "forage score":
-			console.log("Here's how your balance of animals and forage compares with standards and your needs: " + );
+			const score = CattleScore.calculateForageScore();
+			console.log("Based on your forage balance practices and the standards, your forage score is: " + score);
 			break;
 		default: // For user help
 			console.log("Commands:");
