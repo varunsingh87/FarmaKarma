@@ -18,7 +18,7 @@ Calculate.csvDecPesticideCorn = async function (csvPest,csvHerb,csvInsect,csvFun
 
 // csv corn to pesticide ratio
 Calculate.csvPesticideStandard = async function (csvCornYield, csvWateredCornAcres, csvPesticideCorn, csvPlantedCornAcres) {
-  csvPesticideScore =  (csvCornYield*csvWateredCornAcres)/(csvPesticideCorn*csvPlantedCornAcres)
+  csvPesticideScore =  (csvCornYield * csvWateredCornAcres) / (csvPesticideCorn * csvPlantedCornAcres)
   return csvPesticideScore;
 }
 

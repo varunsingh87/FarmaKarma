@@ -8,8 +8,11 @@ const Calculate = require('./Calculate.js');
 
 async function compareData(input, callbackFunc) {
 	let all = await callbackFunc(); // Store retrieved data
-	all = all.replace(/,/g, ''); // Remove all commas in the number
-	return parseFloat(input) / parseFloat(all); // Convert to numbers and divide
+	return parseFloat(input) / parseFloat(all.removeCommas()); // Convert to numbers and divide
+}
+
+String.prototype.removeCommas = function() {
+	return this.replace(/,/g, '');
 }
 
 Number.prototype.toPercent = function() {
@@ -21,7 +24,6 @@ async function displayData(input, callbackFunc) {
 	const output = await compareData(input, callbackFunc);
 	console.log("Your usage is " + output.toPercent() + " of the total amount of usage.");
 }
-console.log("Server Started...");
 
 async function runCommand(toPrompt, method) {
 	input = prompt(toPrompt);
@@ -68,10 +70,15 @@ async function calculateChemicalScore() {
 	userPesticideCorn = userDecPest + userDecHerb + userDecInsect + userDecFungi;
 
 	userPesticideScore = await Calculate.userPesticideScore(userCornYield, userPesticideCorn, userPlantedCornAcres);
-	csvPesticideScore = await Calculate.csvPesticideStandard();
 
+	csvCornYield = await Retrieve.cornYield();
+	csvWateredCornAcres = await Retrieve.irrigatedCorn();
+	csvPesticideCorn = await Retrieve.pesticideCorn();
+	csvPlantedCornAcres = await Retrieve.plantedCorn();
+	csvPesticideStandard = await Calculate.csvPesticideStandard(parseFloat(csvCornYield.removeCommas()), parseFloat(csvWateredCornAcres.removeCommas()), parseFloat(csvPesticideCorn.removeCommas()), parseFloat(csvPlantedCornAcres.removeCommas()));
+	console.log(csvPesticideStandard);
 	// compare user input to calculated csv total and return grade for pesticides
-	if (userPesticideScore > csvPesticideScore) // US standard is 8.963 bushels per treated acre
+	if (userPesticideScore > csvPesticideStandard) // US standard is 8.963 bushels per treated acre
 		if (userPesticideScore < 10)
 			return "C"; //Missouri falls here with 7.4061
 		else if (userPesticideScore >= 10  & userPesticideScore < 50)
@@ -96,7 +103,7 @@ async function runFarmerApp() {
       await runCommand('Enter your average barley planting-harvesting percentage difference: ', Retrieve.barley);
       break;
 		case "chemical score":
-			console.log(await calculateChemicalScore());
+			console.log("Your chemical score is " + await calculateChemicalScore());
 			break;
 		default: // For user help
 			console.log("Commands:");
