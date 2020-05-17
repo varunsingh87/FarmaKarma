@@ -13,12 +13,6 @@ Retrieve.corn = async function() {
   return state.data[0].Value;
 }
 
-// Make an API request to CSV file
-Retrieve.pesticide = async function() {
-	pesticide = await CSVToJSON().fromFile('PesticideCorn.csv')
-  return pesticide[0].estimate;
-}
-
 // Make an API request to PlantedCrops.csv
 Retrieve.barley = async function() {
 	barley = await CSVToJSON().fromFile('PlantedCrops.csv');
@@ -48,6 +42,23 @@ Retrieve.herbicideCorn = async function() {
 Retrieve.fungicideCorn = async function() {
   csvFungi = await CSVToJSON().fromFile('PesticideCorn.csv')
   return csvFungi[11].estimate;
+}
+
+Retrieve.plantedCorn = async function() {
+  csvPlantedCornAcres = await CSVToJSON().fromFile('WaterCorn.csv')
+  return csvPlantedCornAcres[1].estimate;
+}
+
+// csv irrigated corn acres
+Retrieve.irrigatedCorn = async function() {
+	csvWateredCornAcres = await CSVToJSON().fromFile('WaterCorn.csv')
+	return csvWateredCornAcres[2].estimate;
+}
+
+// csv corn yield per acre
+Retrieve.cornYield = async function() {
+	csvCornYield = await CSVToJSON().fromFile('WaterCorn.csv')
+	return csvCornYield[5].estimate;
 }
 
 module.exports = Retrieve;

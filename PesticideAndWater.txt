@@ -39,45 +39,6 @@ userDecFungi = parseInt(userFungi)/userPlantedCornAcres
 //sum of all decimals calculated from user input
 userPesticideCorn = userDecPest + userDecHerb + userDecInsect + userDecFungi;
 
-//user corn to pesticide ratio
-async function calculatedUserPesticideScore(userCornYield, userPesticideCorn, userPlantedCornAcres) {
-  userPesticideScore =  userCornYield/(userPesticideCorn*userPlantedCornAcres)
-  return userPesticideScore;
-}
-
-//add all the percentages and convert to decimal format
-async function csvDecPesticideCorn(csvPest,csvHerb,csvInsect,csvFungi) {
-  totalPestPercentage = (parseInt(csvPest) + parseInt(csvHerb) + parseInt(csvInsect) + parseInt(csvFungi))/100;
-  return csvPesticideCorn;
-}
-
-//csv planted corn acres
-async function retrievePlantedCornData() {
-  csvPlantedCornAcres = await CSVToJSON().fromFile('WaterCorn.csv')
-  return csvPlantedCornAcres[1].estimate;
-}
-
-//csv irrigated corn acres
-async function retrieveWateredCornData() {
-  csvWateredCornAcres = await CSVToJSON().fromFile('WaterCorn.csv')
-  return csvWateredCornAcres[2].estimate;
-}
-
-//csv corn yield per acre
-async function retrieveCornYieldData() {
-  csvCornYield = await CSVToJSON().fromFile('WaterCorn.csv')
-  return csvCornYield[5].estimate;
-}
-
-//csv corn to pesticide ratio
-async function calculatedCsvPesticideScore(csvCornYield, csvWateredCornAcres, csvPesticideCorn, csvPlantedCornAcres) {
-  csvPesticideScore =  (csvCornYield*csvWateredCornAcres)/(csvPesticideCorn*csvPlantedCornAcres)
-  return csvPesticideScore;
-}
-
-
-
-
 //compare user input to calculated csv total and return grade for pesticides
 if userPesticideScore > csvPesticideScore
 	if userPesticideScore <= 0.75*csv //less than 75% of csv total

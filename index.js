@@ -4,6 +4,7 @@ const axios = require('axios');
 const Constants = require('./constants.json');
 const CSVToJSON = require('csvtojson');
 const Retrieve = require('./Retrieve.js');
+const Calculate = require('./Calculate.js');
 
 async function compareData(input, callbackFunc) {
 	let all = await callbackFunc(); // Store retrieved data
@@ -40,6 +41,7 @@ async function runFarmerApp() {
     case "barley":
       await runCommand('Enter your average barley planting-harvesting percentage difference: ', Retrieve.barley);
       break;
+
 		default: // For user help
 			console.log("Commands:");
 			console.log(Object.getOwnPropertyNames(Retrieve).filter(p => typeof Retrieve[p] === 'function'));
