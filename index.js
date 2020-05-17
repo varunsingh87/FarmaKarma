@@ -106,13 +106,20 @@ async function runFarmerApp() {
 			console.log("Your chemical score is " + await calculateChemicalScore());
 			break;
 		case "forage score":
-			const score = CattleScore.calculateForageScore();
+			score = CattleScore.calculateForageScore();
 			console.log("Based on your forage balance practices and the standards, your forage score is: " + score);
+			break;
+		case "pasture score":
+			const min = CattleScore.getMinimumPasture();
+			console.log("The minimum amount of pasture you need is: " + min + " acres");
+			const actual = CattleScore.getFarmersPasture();
+			score = CattleScore.getPastureScore(min, actual);
+			console.log("To use the minimum amount of pasture, you need " + score[0] + " less acres. Your pasture score is " + score[1]);
 			break;
 		default: // For user help
 			console.log("Commands:");
 			//console.log(Object.getOwnPropertyNames(Retrieve).filter(p => typeof Retrieve[p] === 'function'));
-			var arr = ['corn', 'pesticide', 'barley', 'chemical score', 'forage score'];
+			var arr = ['corn', 'pesticide', 'barley', 'chemical score', 'forage score', 'pasture score'];
 			for (let el of arr) {
 				console.log(el);
 			}

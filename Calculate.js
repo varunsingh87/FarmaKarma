@@ -3,6 +3,7 @@ const Calculate = {
 };
 
 const CSVToJSON = require('csvtojson');
+const Constants = require('./Constants.json');
 
 // user corn to pesticide ratio
 Calculate.userPesticideScore = async function (userCornYield, userPesticideCorn, userPlantedCornAcres) {
@@ -20,6 +21,11 @@ Calculate.csvDecPesticideCorn = async function (csvPest,csvHerb,csvInsect,csvFun
 Calculate.csvPesticideStandard = async function (csvCornYield, csvWateredCornAcres, csvPesticideCorn, csvPlantedCornAcres) {
   csvPesticideScore =  (csvCornYield * csvWateredCornAcres) / (csvPesticideCorn * csvPlantedCornAcres)
   return csvPesticideScore;
+}
+
+//
+Calculate.cattlePastureStandard = function(animals, avgWeight, avgYieldPerAcre, grazingDays = 365) {
+  return (animals * avgWeight * Constants.DailyUtilizationRate * grazingDays) / avgYieldPerAcre;
 }
 
 module.exports = Calculate;
