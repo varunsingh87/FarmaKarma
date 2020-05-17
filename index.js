@@ -92,8 +92,6 @@ async function calculateWaterScore() {
 	// user enters number of acres of corn that is irrigated
 	input2 = prompt('Enter number of corn acres that is watered: ');
 	userWateredCornAcres = parseInt(input2);
-	console.log(userCornYield);
-	console.log(userWateredCornAcres);
 
 	userCornWaterRatio = await Calculate.userCornWaterRatio(userCornYield, userWateredCornAcres);
 	waterScore = await Calculate.waterScore(userCornWaterRatio);
@@ -107,12 +105,6 @@ async function runFarmerApp() {
 		case "corn":
 			await runCommand('Enter your average annual yield of corn: ', Retrieve.corn);
 			break;
-		case "pesticide":
-			await runCommand('Enter your average pesticide use: ', Retrieve.pesticide);
-			break;
-    case "barley":
-      await runCommand('Enter your average barley planting-harvesting percentage difference: ', Retrieve.barley);
-      break;
 		case "chemical score":
 			console.log("Your chemical score is " + await calculateChemicalScore());
 			break;
@@ -133,7 +125,7 @@ async function runFarmerApp() {
 		default: // For user help
 			console.log("Commands:");
 			//console.log(Object.getOwnPropertyNames(Retrieve).filter(p => typeof Retrieve[p] === 'function'));
-			var arr = ['corn', 'pesticide', 'barley', 'chemical score', 'forage score', 'pasture score'];
+			var arr = ['corn', 'chemical score', 'forage score', 'pasture score', 'water score'];
 			for (let el of arr) {
 				console.log(el);
 			}

@@ -32,7 +32,6 @@ Calculate.cattlePastureStandard = function(animals, avgWeight, avgYieldPerAcre, 
 // user corn to water ratio calculation
 Calculate.userCornWaterRatio = async function (userCornYield, userWateredCornAcres) {
   userCornWaterRatio =  userCornYield / userWateredCornAcres;
-  console.log(userCornWaterRatio);
   return userCornWaterRatio;
 }
 
