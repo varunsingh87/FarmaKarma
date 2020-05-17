@@ -4,6 +4,7 @@ const Retrieve = {
 
 const Constants = require('./Constants.json');
 const axios = require('axios');
+const CSVToJSON = require('csvtojson');
 
 // Make an API request to QuickStats API from National Agricultural Survey Service from USDA
 Retrieve.corn = async function() {

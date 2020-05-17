@@ -2,6 +2,8 @@ const Calculate = {
 
 };
 
+const CSVToJSON = require('csvtojson');
+
 // user corn to pesticide ratio
 Calculate.userPesticideScore = async function (userCornYield, userPesticideCorn, userPlantedCornAcres) {
   userPesticideScore =  userCornYield/(userPesticideCorn*userPlantedCornAcres)
@@ -15,7 +17,7 @@ Calculate.csvDecPesticideCorn = async function (csvPest,csvHerb,csvInsect,csvFun
 }
 
 // csv corn to pesticide ratio
-Calculate.csvPesticideScore = async function (csvCornYield, csvWateredCornAcres, csvPesticideCorn, csvPlantedCornAcres) {
+Calculate.csvPesticideStandard = async function (csvCornYield, csvWateredCornAcres, csvPesticideCorn, csvPlantedCornAcres) {
   csvPesticideScore =  (csvCornYield*csvWateredCornAcres)/(csvPesticideCorn*csvPlantedCornAcres)
   return csvPesticideScore;
 }

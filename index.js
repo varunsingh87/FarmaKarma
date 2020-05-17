@@ -28,6 +28,60 @@ async function runCommand(toPrompt, method) {
 	await displayData(input, method);
 }
 
+async function calculateChemicalScore() {
+	//user enters number of bushels of corn
+	userCornYield = prompt('Enter your average annual yield of corn in bushels: ');
+
+	//user enters number of acres used for planting corn
+	input = prompt('Enter number of acres for planting corn: ');
+	userPlantedCornAcres = parseInt(input);
+
+	//user enters number of acres of corn that is irrigated
+	input = prompt('Enter number of corn acres that is watered: ');
+	userWateredCornAcres = parseInt(input);
+
+	//user enters the number of acres that is treated with pesticides
+	userPest = prompt('Enter number of corn acres that is treated with pesticides: ');
+
+	//user enters the number of acres that is treated with insecticides
+	userInsect = prompt('Enter number of corn acres that is treated with insecticides: ');
+
+	//user enters the number of acres that is treated with herbicides
+	userHerb = prompt('Enter number of corn acres that is treated with herbicides: ');
+
+	//user enters the number of acres that is treated with fungicides
+	userFungi = prompt('Enter number of corn acres that is treated with fungicides: ');
+
+	//calculate pesticide usage into percentage (decimal format) based on user input
+	userDecPest = parseInt(userPest)/userPlantedCornAcres
+
+	//calculate herbicide usage into percentage (decimal format) based on user input
+	userDecHerb = parseInt(userHerb)/userPlantedCornAcres
+
+	// calculate insecticide usage into percentage (decimal format) based on user input
+	userDecInsect = parseInt(userInsect)/userPlantedCornAcres
+
+	// calculate pesticide usage into percentage (decimal format) based on user input
+	userDecFungi = parseInt(userFungi)/userPlantedCornAcres
+
+	// sum of all decimals calculated from user input
+	userPesticideCorn = userDecPest + userDecHerb + userDecInsect + userDecFungi;
+
+	userPesticideScore = await Calculate.userPesticideScore(userCornYield, userPesticideCorn, userPlantedCornAcres);
+	csvPesticideScore = await Calculate.csvPesticideStandard();
+
+	// compare user input to calculated csv total and return grade for pesticides
+	if (userPesticideScore > csvPesticideScore) // US standard is 8.963 bushels per treated acre
+		if (userPesticideScore < 10)
+			return "C"; //Missouri falls here with 7.4061
+		else if (userPesticideScore >= 10  & userPesticideScore < 50)
+			return "B"; //Colorado, Kansas, Texas, Georgia fall here
+		else if (userPesticideScore >= 50)
+			return "A"; //Nebraska falls here with 90.3598
+	else
+		return "D";
+}
+
 async function runFarmerApp() {
 	const name = prompt('Enter something you would like to evaluate: ');
 	let input;
@@ -41,7 +95,9 @@ async function runFarmerApp() {
     case "barley":
       await runCommand('Enter your average barley planting-harvesting percentage difference: ', Retrieve.barley);
       break;
-
+		case "chemical score":
+			console.log(await calculateChemicalScore());
+			break;
 		default: // For user help
 			console.log("Commands:");
 			console.log(Object.getOwnPropertyNames(Retrieve).filter(p => typeof Retrieve[p] === 'function'));
