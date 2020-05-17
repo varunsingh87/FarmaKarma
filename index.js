@@ -76,7 +76,6 @@ async function calculateChemicalScore() {
 	csvPesticideCorn = await Retrieve.pesticideCorn();
 	csvPlantedCornAcres = await Retrieve.plantedCorn();
 	csvPesticideStandard = await Calculate.csvPesticideStandard(parseFloat(csvCornYield.removeCommas()), parseFloat(csvWateredCornAcres.removeCommas()), parseFloat(csvPesticideCorn.removeCommas()), parseFloat(csvPlantedCornAcres.removeCommas()));
-	console.log(csvPesticideStandard);
 	// compare user input to calculated csv total and return grade for pesticides
 	if (userPesticideScore > csvPesticideStandard) // US standard is 8.963 bushels per treated acre
 		if (userPesticideScore < 10)
@@ -105,9 +104,16 @@ async function runFarmerApp() {
 		case "chemical score":
 			console.log("Your chemical score is " + await calculateChemicalScore());
 			break;
+		case "forage score":
+			console.log("Here's how your balance of animals and forage compares with standards and your needs: " + );
+			break;
 		default: // For user help
 			console.log("Commands:");
-			console.log(Object.getOwnPropertyNames(Retrieve).filter(p => typeof Retrieve[p] === 'function'));
+			//console.log(Object.getOwnPropertyNames(Retrieve).filter(p => typeof Retrieve[p] === 'function'));
+			var arr = ['corn', 'pesticide', 'barley', 'chemical score', 'forage score'];
+			for (let el of arr) {
+				console.log(el);
+			}
 			break;
 	}
 }
