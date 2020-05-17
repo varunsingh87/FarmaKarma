@@ -3,6 +3,7 @@ const prompt = require('prompt-sync')();
 const axios = require('axios');
 const Constants = require('./constants.json');
 const CSVToJSON = require('csvtojson');
+const Retrieve = require('./Retrieve.js');
 
 async function compareData(input, callbackFunc) {
 	let all = await callbackFunc(); // Store retrieved data
@@ -10,29 +11,9 @@ async function compareData(input, callbackFunc) {
 	return parseFloat(input) / parseFloat(all); // Convert to numbers and divide
 }
 
-// Make an API request to QuickStats API from National Agricultural Survey Service from USDA
-async function retrieveCornData() {
-	const url = `http://quickstats.nass.usda.gov/api/api_GET/?key=${Constants.FDCKey}&commodity_desc=CORN&year__GE=2012&state_alpha=VA&format=JSON`;
-  response = await axios.get(url);
-  state = response.data
-  return state.data[0].Value;
-}
-
-// Make an API request to CSV file
-async function retrievePesticideData() {
-  pesticide = await CSVToJSON().fromFile('PesticideCorn.csv')
-  return pesticide[0].estimate;
-  //hello test
-}
-
-async function retrieveBarleyData() {
-  barley = await CSVToJSON().fromFile('PlantedCrops.csv');
-  barley = barley.filter(el => el.Commodity2 == 'Barley');
-  return barley[0].value;
-}
-
 Number.prototype.toPercent = function() {
-	return Math.round(this * 10000) / 10000 + "%";
+	const usrFriendlyVal = Math.ceil(this * 10000) / 10000 + "%";
+	return usrFriendlyVal !== '0%' ? usrFriendlyVal : '< 0.0001%';
 }
 
 async function displayData(input, callbackFunc) {
@@ -47,15 +28,15 @@ async function runFarmerApp() {
 	switch (name) {
 		case "corn":
 			input = prompt('Enter your average annual yield of corn: ');
-			await displayData(input, retrieveCornData);
+			await displayData(input, Retrieve.corn);
 			break;
 		case "pesticides":
 			input = prompt('Enter your average pesticide use');
-			await displayData(input, retrievePesticideData);
+			await displayData(input, Retrieve.pesticide);
 			break;
     case "barley":
       input1 = prompt('Enter your average barley planting-harvesting percentage difference');
-      await displayData(input, retrieveBarleyData);
+      await displayData(input, Retrieve.barley);
       break;
 		default: // For user help
 			console.log("Commands:");

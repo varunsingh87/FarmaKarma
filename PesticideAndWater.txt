@@ -41,35 +41,8 @@ userPesticideCorn = userDecPest + userDecHerb + userDecInsect + userDecFungi;
 
 //user corn to pesticide ratio
 async function calculatedUserPesticideScore(userCornYield, userPesticideCorn, userPlantedCornAcres) {
-  userPesticideScore =  userCornYield/(userPesticideCorn*userPlantedCornAcres) 
+  userPesticideScore =  userCornYield/(userPesticideCorn*userPlantedCornAcres)
   return userPesticideScore;
-}
-
-
-
-
-//pesticide corn
-async function retrievePesticideCornData() {
-  csvPest = await CSVToJSON().fromFile('PesticideCorn.csv')
-  return csvPest[2].estimate;
-}
-
-//insecticide corn
-async function retrieveInsecticideCornData() {
-  csvInsect = await CSVToJSON().fromFile('PesticideCorn.csv')
-  return csvInsect[5].estimate;
-}
-
-//herbicide corn
-async function retrieveHerbicideCornData() {
-  csvHerb = await CSVToJSON().fromFile('PesticideCorn.csv')
-  return csvHerb[8].estimate;
-}
-
-//fungicide corn
-async function retrieveFungicideCornData() {
-  csvFungi = await CSVToJSON().fromFile('PesticideCorn.csv')
-  return csvFungi[11].estimate;
 }
 
 //add all the percentages and convert to decimal format
@@ -98,7 +71,7 @@ async function retrieveCornYieldData() {
 
 //csv corn to pesticide ratio
 async function calculatedCsvPesticideScore(csvCornYield, csvWateredCornAcres, csvPesticideCorn, csvPlantedCornAcres) {
-  csvPesticideScore =  (csvCornYield*csvWateredCornAcres)/(csvPesticideCorn*csvPlantedCornAcres) 
+  csvPesticideScore =  (csvCornYield*csvWateredCornAcres)/(csvPesticideCorn*csvPlantedCornAcres)
   return csvPesticideScore;
 }
 
@@ -115,11 +88,3 @@ if userPesticideScore > csvPesticideScore
 		return C
 else
 	return D
-
-
-
-
-
-
-
-
