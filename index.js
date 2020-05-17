@@ -66,6 +66,7 @@ async function runFarmerApp() {
     case "barley":
       input1 = prompt('Enter your average barley planting-harvesting percentage difference');
       await displayData(input, compareBarleyData);
+      break;
 	}
 }
 
