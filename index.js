@@ -12,48 +12,48 @@ async function compareData(input, callbackFunc) {
 }
 
 Number.prototype.toPercent = function() {
-	const usrFriendlyVal = Math.ceil(this * 10000) / 10000 + "%";
-	return usrFriendlyVal !== '0%' ? usrFriendlyVal : '< 0.0001%';
+	const usrFriendlyVal = Math.round(this * 10000) / 10000 + "%";
+	return usrFriendlyVal !== '0%' ? usrFriendlyVal : 'less than 0.0001%';
 }
 
 async function displayData(input, callbackFunc) {
 	const output = await compareData(input, callbackFunc);
-	console.log("Your usage is " + output.toPercent() + " percent of the total amount of usage.");
+	console.log("Your usage is " + output.toPercent() + " of the total amount of usage.");
 }
 console.log("Server Started...");
+
+async function runCommand(toPrompt, method) {
+	input = prompt(toPrompt);
+	await displayData(input, method);
+}
 
 async function runFarmerApp() {
 	const name = prompt('Enter something you would like to evaluate: ');
 	let input;
 	switch (name) {
 		case "corn":
-			input = prompt('Enter your average annual yield of corn: ');
-			await displayData(input, Retrieve.corn);
+			await runCommand('Enter your average annual yield of corn: ', Retrieve.corn);
 			break;
-		case "pesticides":
-			input = prompt('Enter your average pesticide use');
-			await displayData(input, Retrieve.pesticide);
+		case "pesticide":
+			await runCommand('Enter your average pesticide use: ', Retrieve.pesticide);
 			break;
     case "barley":
-      input1 = prompt('Enter your average barley planting-harvesting percentage difference');
-      await displayData(input, Retrieve.barley);
+      await runCommand('Enter your average barley planting-harvesting percentage difference: ', Retrieve.barley);
       break;
 		default: // For user help
 			console.log("Commands:");
-			console.log("corn");
-			console.log("pesticides");
-			console.log("barley");
-			console.log("");
+			console.log(Object.getOwnPropertyNames(Retrieve).filter(p => typeof Retrieve[p] === 'function'));
 			break;
 	}
 }
 
 async function loopApp() {
 	await runFarmerApp();
-	let answer = prompt("Type Y to continue: ");
-	while (answer == 'Y') {
+	const continueKey = "C";
+	let answer = prompt("Type " + continueKey + " to continue: ");
+	while (answer == continueKey) {
 		await runFarmerApp();
-		answer = prompt("Type Y to continue: ");
+		answer = prompt("Type " + continueKey + " to continue: ");
 	}
 }
 
