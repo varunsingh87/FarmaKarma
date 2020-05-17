@@ -30,9 +30,9 @@ async function compareCornData(input) {
 
 // Make an API request to CSV file
 async function retrievePesticideData() {
-	response = await axios.get();
-	state = response.data;
-	return;
+  pesticide = await CSVToJSON().fromFile('PesticideCorn.csv')
+  return pesticide[0].estimate;
+  //hello test
 }
 
 async function comparePesticideData(input) {
