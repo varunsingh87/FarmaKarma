@@ -44,12 +44,18 @@
 
 <h2><br>Forage Score</h2>
 <p>Please enter your stats below for cattle</p>
-Daily utilization rate:
-Number of cows:
-Average weight of cows (lb):
-Average yield per acre (lb/ac):
-Number of grazing days:
+<p>Daily utilization rate: </p>
+<textarea>Utilization rate</textarea>
+<p>Number of cows: </p>
+<textarea>No. of cows</textarea>
+<p>Average weight of cows (lb): </p>
+<textarea>Weight</textarea>
+<p>Average yield per acre (lb/ac): </p>
 <textarea>Crop yield</textarea>
+<p>Number of grazing days: </p>
+<textarea>No. of days/textarea>
+<p>Acres that holds cows: </p>
+<textarea>Acres</textarea>
 </body>
 </html>
 
