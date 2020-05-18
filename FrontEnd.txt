@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Page Title</title>
+</head>
+<body style="background-color:palegreen;">
+
+<img src="img_typo.jpg" alt="FarmaKarma Logo" width="500" height="600">
+
+<center><h1 style="color:green">Welcome to FarmaKarma</h1></center>
+<center><p>Made by Lan, Paul, and Varun</p></center>
+<p>Our app rates farmers based on their self-reported farming practices in hopes of reducing the stress on the environment caused by the agricultural industry</p>
+<center><button>About us</button></center>
+<hr>
+
+<h2><br>Water Score</h2>
+<p>Please enter your stats below for corn</p>
+<p>Average annual yield in bushels: </p>
+<textarea>Crop yield</textarea>
+<p>Acres irrigated: </p>
+<textarea>Acres</textarea>
+<p>Your water score is: </p>
+			textbox
+<hr>
+
+<h2><br>Pesticide Score</h2>
+<p>Please enter your stats below for corn</p>
+<p>Average annual yield in bushels: </p>
+<textarea>Crop yield</textarea>
+<p>Acres planted: </p>
+<textarea>Acres</textarea>
+<p>Acres treated with pesticides: </p>
+<textarea>Acres</textarea>
+<p>Acres treated with insecticides: </p>
+<textarea>Acres</textarea>
+<p>Acres treated with herbicides: </p>
+<textarea>Acres</textarea>
+<p>Acres treated with fungicide: </p>
+<textarea>Acres</textarea>
+<p>Your pesticide score is: </p>
+			textbox
+<a href="https://data.ers.usda.gov/reports.aspx?ID=17883">Pesticides and Corn</a>
+<hr>
+
+<h2><br>Forage Score</h2>
+<p>Please enter your stats below for cattle</p>
+Daily utilization rate:
+Number of cows:
+Average weight of cows (lb):
+Average yield per acre (lb/ac):
+Number of grazing days:
+<textarea>Crop yield</textarea>
+</body>
+</html>
+
