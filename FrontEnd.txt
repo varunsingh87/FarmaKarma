@@ -20,7 +20,7 @@
 <p>Acres irrigated: </p>
 <textarea>Acres</textarea>
 <p>Your water score is: </p>
-			textbox
+			
 <hr>
 
 <h2><br>Pesticide Score</h2>
@@ -38,8 +38,6 @@
 <p>Acres treated with fungicide: </p>
 <textarea>Acres</textarea>
 <p>Your pesticide score is: </p>
-			textbox
-<a href="https://data.ers.usda.gov/reports.aspx?ID=17883">Pesticides and Corn</a>
 <hr>
 
 <h2><br>Forage Score</h2>
@@ -53,9 +51,15 @@
 <p>Average yield per acre (lb/ac): </p>
 <textarea>Crop yield</textarea>
 <p>Number of grazing days: </p>
-<textarea>No. of days/textarea>
+<textarea>No. of days</textarea>
 <p>Acres that holds cows: </p>
 <textarea>Acres</textarea>
+
+<h2><br>Where do we get our data from?</h2>
+<p>Here are some the links used to help calculate the standard data points for reference</p>
+<a href="https://data.ers.usda.gov/reports.aspx?ID=17883">Pesticides and Water</a>
+<a href="https://data.ers.usda.gov/reports.aspx?ID=17883">Pesticides and Water</a>
+
 </body>
 </html>
 
