@@ -17,15 +17,15 @@ CattleScore.calculateForageScore = function() {
 
 CattleScore.getMinimumPasture = function() {
 	cows = prompt("Enter your number of cows: ");
-	avgWeight = prompt("Enter the average weight of your cows (lb): ");
-	avgYieldPerAcre = prompt("Enter your average yield per acre (lb/ac): ");
+	avgWeight = prompt("Enter the average weight of your cows in pounds: ");
+	avgYieldPerAcre = prompt("Enter your average yield in pounds per acre: ");
 	grazingDays = prompt("Enter your cow's number of grazing days each year: ");
 	standard = Calculate.cattlePastureStandard(cows, avgWeight, avgYieldPerAcre, grazingDays);
 	return Math.ceil(standard);
 }
 
 CattleScore.getFarmersPasture = function() {
-	acres = prompt("Enter your amount of pasture that holds cows (ac): ");
+	acres = prompt("Enter your amount of pasture that holds cows in acres: ");
 	return acres;
 }
 

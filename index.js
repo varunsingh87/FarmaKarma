@@ -103,7 +103,7 @@ async function runFarmerApp() {
 	let input;
 	switch (name) {
 		case "corn":
-			await runCommand('Enter your average annual yield of corn: ', Retrieve.corn);
+			await runCommand('Enter your average annual yield of corn in bushels: ', Retrieve.corn);
 			break;
 		case "chemical score":
 			console.log("Your chemical score is " + await calculateChemicalScore());
