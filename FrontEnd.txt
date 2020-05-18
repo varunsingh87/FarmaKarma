@@ -2,6 +2,27 @@
 <html lang="en-US">
 <head>
 <title>Page Title</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(odd) {
+  background-color: #ffffff;
+
+}
+</style>
 </head>
 <body style="background-color:palegreen;">
 
@@ -15,50 +36,85 @@
 
 <h2><br>Water Score</h2>
 <p>Please enter your stats below for corn</p>
-<p>Average annual yield in bushels: </p>
-<textarea>Crop yield</textarea>
-<p>Acres irrigated: </p>
-<textarea>Acres</textarea>
-<p>Your water score is: </p>
-			
+<table>
+  <tr>
+    <th>Average Annual Yield (bushels)</th>
+    <td><textarea>Crop yield</textarea></td>
+  </tr>
+  <tr>
+    <th>Acres irrigated</th>
+    <td><textarea>Acres</textarea></td>
+  </tr>
+</table>
+<p>Your water score is: </p>		
 <hr>
 
 <h2><br>Pesticide Score</h2>
 <p>Please enter your stats below for corn</p>
-<p>Average annual yield in bushels: </p>
-<textarea>Crop yield</textarea>
-<p>Acres planted: </p>
-<textarea>Acres</textarea>
-<p>Acres treated with pesticides: </p>
-<textarea>Acres</textarea>
-<p>Acres treated with insecticides: </p>
-<textarea>Acres</textarea>
-<p>Acres treated with herbicides: </p>
-<textarea>Acres</textarea>
-<p>Acres treated with fungicide: </p>
-<textarea>Acres</textarea>
+<table>
+  <tr>
+    <th>Average Annual Yield (bushels)</th>
+    <td><textarea>Crop yield</textarea></td>
+  </tr>
+  <tr>
+    <th>Acres planted</th>
+    <td><textarea>Acres</textarea></td>
+  </tr>
+  <tr>
+    <th>Acres treated with pesticides</th>
+    <td><textarea>Acres</textarea></td>
+  </tr>
+  <tr>
+    <th>Acres treated with insecticides</th>
+    <td><textarea>Acres</textarea></td>
+  </tr>
+  <tr>
+    <th>Acres treated with herbiicides</th>
+    <td><textarea>Acres</textarea></td>
+  </tr>
+  <tr>
+    <th>Acres treated with fungicides</th>
+    <td><textarea>Acres</textarea></td>
+  </tr>
+</table>
 <p>Your pesticide score is: </p>
 <hr>
 
 <h2><br>Forage Score</h2>
 <p>Please enter your stats below for cattle</p>
-<p>Daily utilization rate: </p>
-<textarea>Utilization rate</textarea>
-<p>Number of cows: </p>
-<textarea>No. of cows</textarea>
-<p>Average weight of cows (lb): </p>
-<textarea>Weight</textarea>
-<p>Average yield per acre (lb/ac): </p>
-<textarea>Crop yield</textarea>
-<p>Number of grazing days: </p>
-<textarea>No. of days</textarea>
-<p>Acres that holds cows: </p>
-<textarea>Acres</textarea>
+<table>
+  <tr>
+    <th>Daily utilization rate</th>
+    <td><textarea>Utilization rate</textarea></td>
+  </tr>
+  <tr>
+    <th>Number of cows</th>
+    <td><textarea>No. of cows</textarea></td>
+  </tr>
+  <tr>
+    <th>Average weight of cows (lb)</th>
+    <td><textarea>Weight</textarea></td>
+  </tr>
+  <tr>
+    <th>Average yield per acre (lb/ac)</th>
+    <td><textarea>Crop yield</textarea></td>
+  </tr>
+  <tr>
+    <th>Number of grazing days</th>
+    <td><textarea>No. of days</textarea></td>
+  </tr>
+  <tr>
+    <th>Acres that holds cows</th>
+    <td><textarea>Acres</textarea></td>
+  </tr>
+</table>
+<p>Your forage score is: </p>
+<hr>
 
 <h2><br>Where do we get our data from?</h2>
 <p>Here are some the links used to help calculate the standard data points for reference</p>
-<a href="https://data.ers.usda.gov/reports.aspx?ID=17883">Pesticides and Water</a>
-<a href="https://data.ers.usda.gov/reports.aspx?ID=17883">Pesticides and Water</a>
+<a href="https://data.ers.usda.gov/reports.aspx?ID=17883">Pesticides and Water<br></a>
+<a  href="https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb1167344.pdf">Forage</a>
 
 </body>
 </html>
