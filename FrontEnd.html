@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>Page Title</title>
+<title>FarmaKarma</title>
+<meta charset = "utf-8">
+<link href = "style.css" rel = "stylesheet" type = "text/css">
 </head>
 <body style="background-color:palegreen;">
 
-<img src="img_typo.jpg" alt="FarmaKarma Logo" width="500" height="600">
+<div id='logo-container'>
+	<img id='logo' src="img_typo.jpg" alt="FarmaKarma Logo" width="500" height="600">
+</div>
 
 <center><h1 style="color:green">Welcome to FarmaKarma</h1></center>
 <center><p>Made by Lan, Paul, and Varun</p></center>
@@ -41,15 +45,28 @@
 			textbox
 <a href="https://data.ers.usda.gov/reports.aspx?ID=17883">Pesticides and Corn</a>
 <hr>
-
-<h2><br>Forage Score</h2>
-<p>Please enter your stats below for cattle</p>
-Daily utilization rate:
-Number of cows:
-Average weight of cows (lb):
-Average yield per acre (lb/ac):
-Number of grazing days:
-<textarea>Crop yield</textarea>
+<br>
+<h2>Forage Score</h2>
+<form>
+	<p>Please enter your stats below for cattle</p>
+	<p>
+		<label for = "dur">Daily utilization rate: </label>
+		<input type = "number">
+	</p>
+	<p>
+		<label for = "numofcows">Number of cows: </label>
+		<input type = "number">
+	</p>
+	<p>
+		<label for = "avgweight">Average weight of cows (lb): </label>
+	</p>
+	<p>
+		<label for = "avgyield"> Average yield per acre (lb/ac): </label>
+	</p>
+	<p>
+		<label for = "grazingdays"> Number of grazing days: </label>
+	</p>
+	<textarea>Crop yield</textarea>
+</form>
 </body>
 </html>
-
