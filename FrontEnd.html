@@ -49,20 +49,23 @@
 	<p>Please enter your stats below for cattle</p>
 	<p>
 		<label for = "dur">Daily utilization rate: </label>
-		<input type = "number">
+		<input type = "number" min = "0.01" max = "0.99" step = "0.01" value = "0.04">
 	</p>
 	<p>
 		<label for = "numofcows">Number of cows: </label>
-		<input type = "number">
+		<input type = "number" min = "0">
 	</p>
 	<p>
 		<label for = "avgweight">Average weight of cows (lb): </label>
+		<input type = "number" min = "10">
 	</p>
 	<p>
 		<label for = "avgyield"> Average yield per acre (lb/ac): </label>
+		<input type = "number" min = "1">
 	</p>
 	<p>
 		<label for = "grazingdays"> Number of grazing days: </label>
+		<input type = "number" min = "1" value = "365">
 	</p>
 	<textarea>Crop yield</textarea>
 </form>
