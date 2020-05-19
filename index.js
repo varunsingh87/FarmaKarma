@@ -144,3 +144,25 @@ async function loopApp() {
 }
 
 loopApp();
+var express = require("express");
+var app = express();
+app.listen(3000, () => {
+ console.log("Server running on port 3000");
+});
+
+const settings = {
+	root: "/Users/VSpoe/git/FarmaKarma"
+};
+
+app.get("/img_typo.jpg", function(req, res, next) {
+	res.sendFile('/img_typo.jpg', settings);
+});
+app.get("/style.css", function(req, res, next) {
+	res.sendFile('/style.css', settings);
+});
+app.get("/img_typo.ico", function(req, res, next) {
+	res.sendFile('/img_typo.ico', settings)
+});
+app.get("", function(req, res, next) {
+    res.sendFile('/FrontEnd.html', settings);
+});
