@@ -20,3 +20,12 @@ tr:nth-child(odd) {
   background-color: #ffffff;
 
 }
+
+h1 {
+  color: #33CC66;
+	text-align: center;
+}
+
+h2 {
+  color: #006633;
+}
