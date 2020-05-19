@@ -3,5 +3,13 @@
 	"version": "1.0.0",
 	"description": "A web app that lets farmers input information about their farming practices and gives them a grade based on USDA REST API data",
 	"main": "index.js",
-	"author": "Lan Bui, Varun Singh, Paul Grass"
+	"author": "Lan Bui, Varun Singh, Paul Grass",
+	"repository": "FarmaKarma",
+	"license": "MIT Open Source",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"csvtojson": "^2.0.10",
+		"express": "^4.17.1",
+		"prompt-sync": "^4.2.0"
+	}
 }
