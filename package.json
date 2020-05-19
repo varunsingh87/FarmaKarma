@@ -1,0 +1,7 @@
+{
+	"name": "FarmaKarma",
+	"version": "1.0.0",
+	"description": "A web app that lets farmers input information about their farming practices and gives them a grade based on USDA REST API data",
+	"main": "index.js",
+	"author": "Lan Bui, Varun Singh, Paul Grass"
+}
