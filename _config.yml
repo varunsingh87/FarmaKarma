@@ -1,0 +1,2 @@
+- name: Glitch Project Sync
+  uses: kanadgupta/glitch-sync@v1.0
