@@ -5,6 +5,9 @@
 	"main": "index.js",
 	"author": "Lan Bui, Varun Singh, Paul Grass",
 	"repository": "FarmaKarma",
+  "scripts": {
+    "start": "node server.js"
+  },
 	"license": "MIT Open Source",
 	"dependencies": {
 		"axios": "^0.19.2",
