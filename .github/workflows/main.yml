@@ -15,4 +15,4 @@ jobs:
       uses: kanadgupta/glitch-sync@master
       with:
         project-id: '${{ secrets.projectId }}'
-        auth-token: '${{ secrets.authToken }}'
+        auth-token: 'e17dbc9b-e24b-4ee4-853e-c705b58b63c1'
