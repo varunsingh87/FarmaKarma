@@ -10,7 +10,7 @@
   },
 	"license": "MIT Open Source",
 	"dependencies": {
-		"axios": "^0.19.2",
+		"axios": "^0.21.1",
 		"csvtojson": "^2.0.10",
 		"express": "^4.17.1",
 		"prompt-sync": "^4.2.0"
